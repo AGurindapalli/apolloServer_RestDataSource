@@ -1,6 +1,19 @@
 # Sample Project use RestDataSource in Apollo Server
 
-In this Project i'm getting Random person from the `https://api.randomuser.me/` and displaying gender and email as sample. You can use update the schema to use other properties too
+In this Project i'm getting Random person from the `https://api.randomuser.me/` and displaying gender and email as sample. You can use update the schema to use other properties too.
+
+### Dependies
+
+```js
+
+"dependencies": {
+    "apollo-datasource-rest": "^0.2.1",
+    "apollo-server-express": "^2.3.1",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3"
+  }
+```  
 
 ### 1. Clone the Repository
 ### 2. Install the node Modules
@@ -17,4 +30,4 @@ In this Project i'm getting Random person from the `https://api.randomuser.me/` 
   }
 }
 ```
-### You have successfully Ran a RESTAPI using Apollo Server        
+### You have successfully Ran a RESTAPI using Apollo Server 
